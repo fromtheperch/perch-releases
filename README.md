@@ -2,7 +2,7 @@
 
 perch is a free Mac app that shows every Claude Code and Codex session you have running, sorted by what each needs, so you can answer them from one place or from your phone.
 
-**[Download the latest version](https://github.com/fromtheperch/perch-releases/releases/latest)** (macOS 13 or later, Apple silicon). The app is signed and notarized by Apple, and it updates itself.
+perch isn't available to download yet. [Get notified at launch](https://theperch.dev/#waitlist).
 
 How it works and how to set it up: [theperch.dev/docs](https://theperch.dev/docs/).
 
