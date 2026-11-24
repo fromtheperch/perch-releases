@@ -1,0 +1,31 @@
+name: Something's wrong
+description: perch did something it shouldn't, or didn't do something it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Bug report from perch
+      description: In perch, Settings → Problems → Copy for a bug report, then paste here. Keys, email addresses, repos and folder names are left out of it. Read it before posting anyway.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: perch version
+      description: perch → About
+      placeholder: "0.1.6"
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options: [Mac app, iPhone app, Browser dashboard, Not sure]
+  - type: markdown
+    attributes:
+      value: Please don't paste API keys, tokens, or anything from your conversations you wouldn't want public. Issues here are public.
